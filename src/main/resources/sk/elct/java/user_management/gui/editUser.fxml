@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="185.0" prefWidth="341.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="36.0" layoutY="31.0" text="Meno:" />
+      <Label layoutX="35.0" layoutY="62.0" text="e-mail:" />
+      <Label layoutX="26.0" layoutY="98.0" text="skupiny:" />
+      <TextField fx:id="nameTextField" layoutX="83.0" layoutY="27.0" />
+      <TextField fx:id="emailTextField" layoutX="83.0" layoutY="67.0" />
+      <Button fx:id="saveButton" layoutX="274.0" layoutY="27.0" mnemonicParsing="false" text="Save" />
+   </children>
+</AnchorPane>
